@@ -11,8 +11,9 @@ end
 def max_2_sum arr
   # YOUR CODE HERE
    return 0 if arr.empty?
-    arr.sort.last(2).sum
+    sum arr.sort.last(2)
 end
+
 
 def sum_to_n? arr, n
   # YOUR CODE HERE
