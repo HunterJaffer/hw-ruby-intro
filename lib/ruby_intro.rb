@@ -32,10 +32,13 @@ end
 
 def hello(name)
   # YOUR CODE HERE
+  "Hello, #{name}"
 end
 
 def starts_with_consonant? s
-  # YOUR CODE HERE
+  # YOUR CODE HERE a, e, i, o, u.
+  if s[0] =~ "/[^aeiou]/i" then true
+  return false
 end
 
 def binary_multiple_of_4? s
