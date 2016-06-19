@@ -4,10 +4,14 @@
 
 def sum arr
   # YOUR CODE HER
+    return 0 if arr.empty?
+    arr.inject(:+)
 end
 
 def max_2_sum arr
   # YOUR CODE HERE
+   return 0 if arr.empty?
+    arr.sort.last(2).sum
 end
 
 def sum_to_n? arr, n
