@@ -44,6 +44,9 @@ end
 
 def binary_multiple_of_4? s
   # YOUR CODE HERE
+  !!(s =~ /^[01]/)
+  return true if s =~ /00$/
+
 end
 
 # Part 3
