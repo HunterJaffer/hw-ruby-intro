@@ -3,8 +3,7 @@
 # Part 1
 
 def sum arr
-  # YOUR CODE HERdjdjjd
-    jhr
+  # YOUR CODE HER
 end
 
 def max_2_sum arr
