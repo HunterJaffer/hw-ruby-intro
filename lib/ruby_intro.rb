@@ -4,6 +4,7 @@
 
 def sum arr
   # YOUR CODE HERdjdjjd
+    jhr
 end
 
 def max_2_sum arr
