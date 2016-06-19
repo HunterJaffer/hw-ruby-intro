@@ -37,8 +37,9 @@ end
 
 def starts_with_consonant? s
   # YOUR CODE HERE a, e, i, o, u.
-    # Add the condition for emty string
+  return false if !(s[0]=~/^[[:alpha:]]$/)
   !!(s =~ /\A[^aeiou]/i)
+
 end
 
 def binary_multiple_of_4? s
